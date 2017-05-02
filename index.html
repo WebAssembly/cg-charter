@@ -29,11 +29,11 @@
   </head>
   <body>
     <h1>
-      [DRAFT] WebAssembly Community Group Charter
+      WebAssembly Community Group Charter
     </h1>
     <p>
-    This Charter is work in progress. To submit feedback,
-    please use <a
+    Feedback on this charter can be submitted at:
+    <a
       href="https://github.com/WebAssembly/cg-charter">https://github.com/WebAssembly/cg-charter</a>.
     </p>
     <ul>
@@ -41,9 +41,9 @@
       </li>
       <li>Previous Charter: none
       </li>
-      <li>Start Date: 1 May 2017
+      <li>Start Date: 3 May 2017
       </li>
-      <li>Last Modifed: 21 April 2017
+      <li>Last Modifed: 2 May 2017
       </li>
     </ul>
     <h2 id="goals">
@@ -87,7 +87,7 @@
     The community group is explicitly not intended to standardize the final
     ratified text of standards related to WebAssembly.
     Instead it will prepare recommendations to a separate WebAssembly
-    working group.
+    Working Group.
     </p>
     <h2 id="deliverables">
       Deliverables
@@ -123,12 +123,32 @@
       Dependencies or Liaisons
     </h2>
     <ul>
-      <li>The WebAssembly working group - Not yet formed</li>
-      <li><a href="http://ecma-international.org/memento/TC39.htm">TC39</a> -
-      JavaScript standards body
+      <li>The WebAssembly Working Group - Not yet formed</li>
+      <li><a href="http://ecma-international.org/memento/TC39.htm">TC39</a>
+        (JavaScript Standards Body) -
+        Coordinate on integration with JavaScript, particularly on
+        <a href="https://tc39.github.io/ecmascript_sharedmem/shmem.html">SharedArrayBuffer</a>
+        and its memory model
       </li>
-      <li><a href="https://tc39.github.io/ecmascript_sharedmem/shmem.html">
-        SharedArrayBuffer</a> - Particularly the memory model
+      <li>
+        <a href="https://www.w3.org/2008/webapps/">Web Applications Working
+          Group</a> -
+        Potentially coordinate on serialization, direct write access,
+        and WebAssembly bindings to <a
+           href="https://www.w3.org/TR/IndexedDB/">IndexedDB</a>.
+      </li>
+      <li>
+        <a href="https://www.w3.org/WebPlatform/WG/">
+          Web Platform Working Group</a> -
+        Potentially collaborate on WebAssembly specific bindings to Web
+        APIs (or interpreting existing
+        <a href="https://www.w3.org/TR/WebIDL/">WebIDL</a>
+        as it relates to WebAssembly).
+      </li>
+      <li>
+        <a href="https://www.khronos.org/">Khronos Group</a> -
+        Potentially collaborate on WebAssembly specific bindings to
+        <a href="https://www.khronos.org/webgl/wiki">WebGL</a>.
       </li>
     </ul>
     <h2 id="process">

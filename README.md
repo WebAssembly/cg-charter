@@ -1,6 +1,7 @@
-# cg-charter
-[Charter template for W3C Community](http://w3c.github.io/cg-charter/CGCharter.html) and Business Groups
+# WebAssembly Community Group Charter
 
-To create a markdown version, please use a markdown-translator (available on the Web).
+View on the Web at: http://webassembly.github.io/cg-charter
 
-Questions? Please contact team-community-process@w3.org.
+Based on this template:
+[Charter template for W3C Community](http://w3c.github.io/cg-charter/CGCharter.html)
+
